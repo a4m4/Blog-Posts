@@ -6,7 +6,7 @@ const App = () => {
 
     return (
         <div className="ui container" >
-                <PostList/> 
+                <PostList/>  
         </div>
     );
 };
