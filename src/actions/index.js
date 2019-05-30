@@ -1,5 +1,5 @@
 import jsonPlaceholder from '../apisjsonPlaceholder';
-import { async } from 'q';
+
 
 
 export const fetchPosts = () => {
