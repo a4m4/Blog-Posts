@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import portReducer from './postReducer';
+import postReducer from './postReducer';
 
 export default combineReducers({
-    replaceMe: () => 'its dummy'
+    posts : postReducer
 });
